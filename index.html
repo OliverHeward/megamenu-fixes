@@ -45,7 +45,7 @@
 
 
         <!-- Website styles -->
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="/assets/styles/styles.css?rnd=0358324610985">
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
@@ -63,8 +63,6 @@
 
         </script>
 
-        <!-- Script -->
-        <script src="./script.js" type="text/javascript"></script>
         
     <script type="text/javascript">var appInsights=window.appInsights||function(config){function t(config){i[config]=function(){var t=arguments;i.queue.push(function(){i[config].apply(i,t)})}}var i={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",r,f;setTimeout(function(){var t=u.createElement(o);t.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(t)});try{i.cookie=u.cookie}catch(y){}for(i.queue=[],r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)t("track"+r.pop());return t("set"+s),t("clear"+s),t(h+a),t(c+a),t(h+v),t(c+v),t("flush"),config.disableExceptionTracking||(r="onerror",t("_"+r),f=e[r],e[r]=function(config,t,u,e,o){var s=f&&f(config,t,u,e,o);return s!==!0&&i["_"+r](config,t,u,e,o),s}),i}({instrumentationKey:"1f09f5c8-9937-4fc5-8485-64e70a38b4bf",sdkExtension:"a"});window.appInsights=appInsights;appInsights.queue&&appInsights.queue.length===0&&appInsights.trackPageView();</script></head>
 
@@ -337,7 +335,7 @@
 
 
       <div class="header-button">
-        <a href="#" id="megamenu-toggle" class="a-btn a-btn--menu">Menu <i class="fas fa-bars"></i></a>
+        <a href="javascript:void()" id="megamenu-toggle" class="a-btn a-btn--menu">Menu <i class="fas fa-bars"></i></a>
       </div>
 
     </div>
@@ -345,7 +343,7 @@
 
         
     <!-- Take note of the location class. This relates to Colors -->
-    <div class="trentham-megamenu">
+    <div class="trentham-megamenu" style="display: none;">
         <div class="container ">
             <div class="trentham-megamenu__wrapper">
                 
@@ -379,13 +377,13 @@
 
 
                         <!-- Highlight Buttons -->
-                            <div class="card button">
+                            <div class="card">
                                 <div class="card-header" id="headingHighlight">
                                     <a href="https://trenthamgardens.azurewebsites.net/book.aspx" title="Book Now" class="BookNow">Book Now</a>
 
                                 </div>
                             </div>
-                            <div class="card button">
+                            <div class="card">
                                 <div class="card-header" id="headingHighlight">
                                     <a href="/plan-your-visit/memberships/" title="Become a member" class="memberShip">Become a member</a>
 
